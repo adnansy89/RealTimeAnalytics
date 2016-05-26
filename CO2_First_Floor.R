@@ -1,7 +1,7 @@
 #Reading the Data for the First Floor
 FullData <- read.csv("Dataset_CO2_First_Floor.csv", header = TRUE)
 
-# TODO --> 90% and 10% of the rows in the csv file should be passed automatically
+# TODO --> 90% and 10% of the rows in the csv file should be read automatically
 
 #Data Split into 90% and 10% for Training and Testing
 df_train <- read.csv("Dataset_CO2_First_Floor.csv", nrows = 5471)
